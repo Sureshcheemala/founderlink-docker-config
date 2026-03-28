@@ -47,5 +47,4 @@ springdoc:
     enabled: true
   override-with-generic-response: false
 
-  #ADD THIS
   default-produces-media-type: application/json
