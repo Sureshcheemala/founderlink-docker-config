@@ -6,6 +6,12 @@ spring:
   application:
     name: investment-service
 
+  rabbitmq:
+    host: rabbitmq
+    port: 5672
+    username: guest
+    password: guest
+
   datasource:
     url: jdbc:mysql://mysql:3306/investment_db?createDatabaseIfNotExist=true
     username: root
